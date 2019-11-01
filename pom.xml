@@ -35,7 +35,8 @@
 		<activemq.version>5.13.0</activemq.version>
 		<freemarker.version>2.3.23</freemarker.version>
 		<quartz.version>2.2.2</quartz.version>
-		<solrj.version>4.10.4</solrj.version>
+		<!-- <solrj.version>4.10.4</solrj.version> -->
+		<solrj.version>5.0.0</solrj.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
