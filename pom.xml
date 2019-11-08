@@ -37,6 +37,7 @@
 		<quartz.version>2.2.2</quartz.version>
 		<mail.version>1.4.7</mail.version>
 		<solrj.version>4.10.4</solrj.version>
+		<aliyun.version>4.0.3</aliyun.version>
 		<!-- <solrj.version>5.0.0</solrj.version> -->
 	</properties>
 	<dependencyManagement>
@@ -231,7 +232,12 @@
 				<artifactId>mail</artifactId>
 				<version>${mail.version}</version>
 			</dependency>
-
+			<!-- 短信发送相关 -->
+			<dependency>
+				<groupId>com.aliyun</groupId>
+				<artifactId>aliyun-java-sdk-core</artifactId>
+				<version>${aliyun.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
